@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: dimgray;
+        }
+        header{
+            background-color: #00E3CC;
+            padding-left: 10px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+        nav {
+            background-color: #32A89C;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+            border-radius: 40px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: azure;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: line-through;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 40px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }
+        article {
+            background-color: #009688;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: #44E3D3;
+        }
+        footer {
+            background-color: #19635d;
+            color: #ffffff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin:0px
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link A</a>
+            <a href="#">Link B</a>
+            <a href="#">Link C</a>
+            <a href="#">Link D</a>
+            <a href="#">Link E</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>AMOR TEMPO MORTE</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>O que ele disse sobre as três verdades absolutas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet vel sapiente ex id placeat sit facilis commodi veniam eos neque, ipsa facere accusantium atque aspernatur laborum rerum deserunt molestias.</p> 
+                <aside>
+                    <p>Artigo escrito por Will Smith</p>
+                </aside>
+            </article>
+            <article>
+                 <h2>Coisas que não podem ser escondidas</h2>
+                 <p>O sol, a lua e a verdade.</p>
+            </article>
+        </section>
+        <aside>
+            Willard Carroll Smith Jr., conhecido por seus nomes artísticos Will Smith ou The Fresh Prince, é um ator, rapper e produtor americano. 
+        </aside>
+    </main>
+    <footer>
+        <p>Desenvolvido por Maria Eduarda Fillmann</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

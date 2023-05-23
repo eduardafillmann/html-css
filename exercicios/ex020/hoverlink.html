@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover em link</title>
+    <style>
+        body{
+            font: bold 1.5em 'Courier New';
+            background-color: black;
+            color: cyan;
+        }
+        a {
+            font-weight: bolder;
+            text-decoration: none;
+            color: crimson;
+        }
+        a:visited {
+            color: rgb(60, 255, 0);
+        }
+        a:hover {
+            text-decoration: line-through;
+            color: deeppink;
+        }
+        a:active{
+            color: dodgerblue;
+        }
+        .especial:hover {
+            color: hotpink;
+            background-color: chocolate;
+            text-decoration: none;
+        }
+        .especial::before {
+            content: '>>';
+            font-weight: bolder;
+        }
+        .especial::after {
+            content: '<<';
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>Veja o vídeo 1 abaixo,
+        <li class="especial"><a href="https://www.youtube.com/watch?v=Cnb5GMsMbgI" target="_blank"> Vídeo 1</a></li>
+    </p>
+    <p>Abaixo  vídeo 2, olha lá,
+        <li><a href="https://www.youtube.com/watch?v=Cizs3lYrAGA" target="_blank">Vídeo 2</a></li>
+    </p>
+    <p>Segue o vídeo 3, sendo o último vídeo,
+        <li><a href="https://www.youtube.com/watch?v=oINDrkBEHlc" target="_blank">Vídeo 3</a></li>
+    </p>
+</body>
+</html>
