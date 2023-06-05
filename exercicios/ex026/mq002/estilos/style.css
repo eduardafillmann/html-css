@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Configurações Gerais */
+
+* {
+    margin: 500px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
